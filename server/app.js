@@ -12,8 +12,8 @@ app.get('/tdd', (req, res) => {
   res.render('tdd')
 })
 
-app.set('route engine', 'ejs');
-app.set('routes', 'routes')
+app.set('view engine', 'ejs');
+app.set('views', 'views')
 
 app.listen(3000, () => console.log('Example app listening on port 3000!'))
 
